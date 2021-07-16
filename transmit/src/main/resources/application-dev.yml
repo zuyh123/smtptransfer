@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: transmitSdk
+  profiles:
+    active: dev
+
+mail:
+  smtp:
+    ip: 10.138.87.167
+    port: 8025
+    username: mqc@haier.net
+    password:
+    connectiontimeout: 5000
+    timeout: 3000
+    ssl:
+      enable: false
+  freemarker:
+    template: /email_template/
+filter:
+  switch: true
+  iplist: 127.0.0.1;10.138.87.167;10.180.96.103

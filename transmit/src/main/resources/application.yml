@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: transmitSdk
+  profiles:
+    active: other
+server:
+  port: 8188
+logging:
+  config: classpath:logback-spring.xml
